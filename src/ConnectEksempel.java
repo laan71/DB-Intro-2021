@@ -36,6 +36,4 @@ public class ConnectEksempel {
         connect();
     }
 
-    private static class Connection {
-    }
 }
