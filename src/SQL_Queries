@@ -1,0 +1,68 @@
+*** CRUD ***
+
+
+
+
+>>> INSERT INTO (CREAT) quiries der indsætter 3 nye opskrifter <<<
+
+INSERT INTO Opskrifter (Navn, Fremgangsmåde, Billede)
+VALUES ('Toast', 'Læg skinke og toastost mellem to skiver toastbrød og put den i toastmaskinen et par minutter.',
+'Toast.png'),
+('Spejlaeg', 'Put lidt fedtstof på panden og varm op. Slå ægget ud når panden er varm og steg det et par
+minutter til hele æggehviden er stivnet men blommen stadig er flydende. Drys med salt og peber.'
+'Spejlaeg.png'),
+('VarmKakao', Kog mælk og kakaopulver med lidt sukker i en tykbundet gryde og hæld den i 2 krus. Server med
+flødeskum og pynt evt. med kakao drysset gennem en sigte.'
+'VarmKakao.png'),
+
+
+
+
+>>> INSERT INTO  (CREAT) quiries der gemmer 5 nye ingredienser <<<
+
+INSERT INTO Ingredienser (Navn, Kalorier)
+VALUES ('Toastbrød' '154'),
+('Skinke' '121'),
+('Toastost' '301'),
+('Æg' '165'),
+('Stegemargarine' '720'),
+
+
+
+
+>>> SELECT (READ) quiries der viser indholdet af indredienslisten i ABC rækkefølge <<<
+
+SELECT * FROM Ingredienser ORDER BY Navn ASC,
+
+
+
+
+>>> UPDATE quiries der opdaterer navnet på en opskrift <<<
+
+UPDATE Navn
+SET Navn='VarmChokolade'
+WHERE ID = 7;
+
+
+
+
+>>> DELETE quiries som sletter en opskrift <<<
+
+DELETE FROM Opskrifter
+WHERE ID = 5;
+
+
+
+
+>>> SELECT (READ) quiries som viser indholdet af opskriftlisten i ABC rækkefølge <<<
+
+SELECT * FROM Opskrifter ORDER BY Navn ASC;
+
+
+
+
+>>> SELECT (READ) quiries som viser næringsindholdet i ingredienslisten i faldende rækkefølge
+
+SELECT * FROM Ingredienser ORDER BY Kalorier DESC;
+
+

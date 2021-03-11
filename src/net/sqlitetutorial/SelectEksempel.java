@@ -19,7 +19,7 @@ public class SelectEksempel {
      */
     private Connection connect() {
         // SQLite connection string
-        String url = "jdbc:sqlite:Kogebog_db";
+        String url = "jdbc:sqlite:C:/Users/Laila A. Andersen/IdeaProjects/aflevering/DB-Intro-2021/src/Opskrifter.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
@@ -34,7 +34,7 @@ public class SelectEksempel {
      * select all rows in the warehouses table
      */
     public void selectAll(){
-        String sql = "SELECT * FROM opskrifter";
+        String sql = "SELECT * FROM Opskrifter";
 
         try (Connection conn = this.connect();
              Statement stmt  = conn.createStatement();
@@ -43,9 +43,9 @@ public class SelectEksempel {
             // loop through the result set
             while (rs.next()) {
                 System.out.println(rs.getInt("id") +  ". " +
-                        rs.getString("navn") + "\n" +
-                        rs.getString("opskrift") + "\n" +
-                        rs.getString("ingredienser") + "\n\n"
+                        rs.getString("Navn") + "\n" +
+                        rs.getString("Opskrifter") + "\n" +
+                        rs.getString("Ingredienser") + "\n\n"
                 );
             }
         } catch (SQLException e) {
@@ -62,9 +62,9 @@ public class SelectEksempel {
         System.out.print("Indtast et søgeord: ");
         brugerInput = scanner.nextLine();
 
-        String sql = "SELECT * FROM opskrifter WHERE navn ='" + brugerInput + "'";
+        String sql = "SELECT * FROM Opskrifter WHERE Navn ='" + brugerInput + "'";
         // Eksempel på LIKE (slet kommentartegnet og søg på la --> Du vil nu finde både Gulash og Lasagne, fordi de indeholde "la")
-        // sql = "SELECT * FROM opskrifter WHERE navn LIKE '%" + brugerInput + "%'";
+        // sql = "SELECT * FROM Opskrifter WHERE Navn LIKE '%" + brugerInput + "%'";
 
         System.out.println(sql);
 
@@ -74,7 +74,7 @@ public class SelectEksempel {
 
             // loop through the result set
             while (rs.next()) {
-                System.out.println(rs.getString("navn"));
+                System.out.println(rs.getString("Navn"));
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
