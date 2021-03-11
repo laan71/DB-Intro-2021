@@ -36,3 +36,6 @@ For at lære at manipulere data vha. SQL queries skal du udarbejde følgende que
 # CRUD
 
 ![2021-03-11 (8)](https://user-images.githubusercontent.com/54774020/110808317-2603a880-8284-11eb-9e90-874c7e7e27a5.png)
+
+
+![2021-03-11 (9)](https://user-images.githubusercontent.com/54774020/110808352-3025a700-8284-11eb-8a84-63d880281e44.png)
