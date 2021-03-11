@@ -23,4 +23,8 @@ For at lære at manipulere data vha. SQL queries skal du udarbejde følgende que
 * 1 SELECT query, som viser indholdet af ingrediens-tabellen i faldende næringsindholds rækkefølge
 
 * Gem alle queries i en tesktfil, og aflever tekstfilen og databasefilen i et GitHub-projekt. 
-.
+
+
+
+..................................................................................................................................................................................................................................................................................
+
