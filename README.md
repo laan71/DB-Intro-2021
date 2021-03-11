@@ -45,3 +45,17 @@ For at lære at manipulere data vha. SQL queries skal du udarbejde følgende que
 
 
 ![2021-03-11 (11)](https://user-images.githubusercontent.com/54774020/110809404-2486b000-8285-11eb-9fa7-27e28309fbfd.png)
+
+
+![2021-03-11 (12)](https://user-images.githubusercontent.com/54774020/110809830-8b0bce00-8285-11eb-81ea-889c71467bc6.png)
+
+
+![2021-03-11 (13)](https://user-images.githubusercontent.com/54774020/110809876-93640900-8285-11eb-81a5-7274b2c1e3fd.png)
+
+
+![2021-03-11 (14)](https://user-images.githubusercontent.com/54774020/110809983-a70f6f80-8285-11eb-9854-4dd4cdc5ce12.png)
+
+
+
+
+
