@@ -31,3 +31,6 @@ For at lære at manipulere data vha. SQL queries skal du udarbejde følgende que
 # ER Diagram
 
 ![2021-03-11 (15)](https://user-images.githubusercontent.com/54774020/110802377-6bbd7280-827e-11eb-9a2a-e1bba1e44ac2.png)
+
+
+![2021-03-11 (8)](https://user-images.githubusercontent.com/54774020/110808317-2603a880-8284-11eb-9e90-874c7e7e27a5.png)
