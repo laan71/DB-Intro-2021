@@ -2,6 +2,8 @@
 
 SQL kommandoer til create, read, update og delete (CRUD)
 
+
+
 For at lære at manipulere data vha. SQL queries skal du udarbejde følgende queries:
 
 INSERT INTO queries, som gemmer 3 nye opskrifter i databasen
